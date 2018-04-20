@@ -1,0 +1,40 @@
+page-home {
+    ion-slides{
+        height: 150px;
+    }
+    ion-icon{
+        font-size: 3em;
+        
+    }
+    // Android
+    .card-md{
+        margin-left: 5px;
+    }
+    // iOS
+    .content-ios{
+        background: #eee;
+    }
+    .toolbar-ios ion-title{
+        padding: 0px;
+    }
+    // Custom
+    .thumbnail{
+        background: #fff;
+        height: 100px;
+        display: block;
+    }
+    .thumb-atas{
+        height: 55px;
+        padding-top: 14px;
+        text-align: center;
+    }
+    .thumb-bawah{
+        text-align: center;
+    }
+    .thumb-img{
+        width: 35px;
+    }
+    .swiper-pagination-bullet-active{
+        background: #ddd;
+    }
+}
