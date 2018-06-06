@@ -1,6 +1,8 @@
 {
   "name": "ionic_mycctv",
   "app_id": "fda93c94",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

@@ -1,5 +1,6 @@
 <ion-header>
   <ion-navbar color="blue-grey">
+    <img class="logo-app" src="assets/imgs/logo-dishub-bekasi.png" alt="Logo">
     <ion-title>
       Bekasi Transport Center
     </ion-title>
@@ -9,71 +10,45 @@
 <ion-content>
   <ion-slides pager autoplay="5000" loop="true" speed="3000">
     <ion-slide>
-      <img src="assets/imgs/slides/slide-1.jpg">
+      <img src="assets/imgs/slides/slide-4.jpeg">
     </ion-slide>
     <ion-slide>
-      <img src="assets/imgs/slides/slide-2.jpg">
+      <img src="assets/imgs/slides/slide-5.jpeg">
     </ion-slide>
     <ion-slide>
-      <img src="assets/imgs/slides/slide-3.jpg">
+      <img src="assets/imgs/slides/slide-6.jpeg">
     </ion-slide>
   </ion-slides>
   <ion-grid>
     <ion-row>
       <ion-col col-4>
-        <div class="thumbnail">
+        <div class="thumbnail" (click)="openListDevice()">
           <ion-row>
             <ion-col col-12 class="thumb-atas"><img src="assets/imgs/target.png" class="thumb-img"></ion-col>
-            <ion-col col-12 class="thumb-bawah">Pantauan CCTV</ion-col>
+            <ion-col col-12 class="thumb-bawah">CCTV Live</ion-col>
           </ion-row>
         </div>
       </ion-col>
       <ion-col col-4>
-        <div class="thumbnail">
+        <div class="thumbnail" (click)="openAtcs()">
           <ion-row>
             <ion-col col-12 class="thumb-atas"><img src="assets/imgs/satellite-dish.png" class="thumb-img"></ion-col>
-            <ion-col col-12 class="thumb-bawah">Lokasi CCTV</ion-col>
+            <ion-col col-12 class="thumb-bawah">Peta ATCS</ion-col>
           </ion-row>
         </div>
       </ion-col>
       <ion-col col-4>
-        <div class="thumbnail">
+        <div class="thumbnail" (click)="openMap()">
           <ion-row>
             <ion-col col-12 class="thumb-atas"><img src="assets/imgs/street-map.png" class="thumb-img"></ion-col>
-            <ion-col col-12 class="thumb-bawah">Peta Bekasi</ion-col>
+            <ion-col col-12 class="thumb-bawah">Peta CCTV</ion-col>
           </ion-row>
         </div>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col col-4>
-        <div class="thumbnail">
-          <ion-row>
-            <ion-col col-12 class="thumb-atas"><img src="assets/imgs/position.png" class="thumb-img"></ion-col>
-            <ion-col col-12 class="thumb-bawah">Pengaduan</ion-col>
-          </ion-row>
-        </div>
-      </ion-col>
-      <ion-col col-4>
-        <div class="thumbnail">
-          <ion-row>
-            <ion-col col-12 class="thumb-atas"><img src="assets/imgs/placeholder.png" class="thumb-img"></ion-col>
-            <ion-col col-12 class="thumb-bawah">eKIR</ion-col>
-          </ion-row>
-        </div>
-      </ion-col>
-      <ion-col col-4>
-        <div class="thumbnail">
-          <ion-row>
-            <ion-col col-12 class="thumb-atas"><img src="assets/imgs/earth-globe.png" class="thumb-img"></ion-col>
-            <ion-col col-12 class="thumb-bawah">Website</ion-col>
-          </ion-row>
-        </div>
-      </ion-col>
-    </ion-row>
-    <ion-row>
-      <ion-col col-4>
-        <div class="thumbnail">
+        <div class="thumbnail" (click)="openFacebook()">
           <ion-row>
             <ion-col col-12 class="thumb-atas"><img src="assets/imgs/facebook.png" class="thumb-img"></ion-col>
             <ion-col col-12 class="thumb-bawah">Facebook</ion-col>
@@ -81,18 +56,18 @@
         </div>
       </ion-col>
       <ion-col col-4>
-        <div class="thumbnail">
+        <div class="thumbnail" (click)="openInstagram()">
           <ion-row>
-            <ion-col col-12 class="thumb-atas"><img src="assets/imgs/twitter.png" class="thumb-img"></ion-col>
-            <ion-col col-12 class="thumb-bawah">Twitter</ion-col>
+            <ion-col col-12 class="thumb-atas"><img src="assets/imgs/instagram.png" class="thumb-img"></ion-col>
+            <ion-col col-12 class="thumb-bawah">Instagram</ion-col>
           </ion-row>
         </div>
       </ion-col>
       <ion-col col-4>
-        <div class="thumbnail">
+        <div class="thumbnail" (click)="openTwitter()">
           <ion-row>
-            <ion-col col-12 class="thumb-atas"><img src="assets/imgs/instagram.png" class="thumb-img"></ion-col>
-            <ion-col col-12 class="thumb-bawah">Instagram</ion-col>
+            <ion-col col-12 class="thumb-atas"><img src="assets/imgs/twitter.png" class="thumb-img"></ion-col>
+            <ion-col col-12 class="thumb-bawah">Twitter</ion-col>
           </ion-row>
         </div>
       </ion-col>
